@@ -5,6 +5,12 @@
         </div>
         <div class="panel-body">
             <ul class="list-group">
+            <% for(i in weapons) { %>
+                <li class="list-group-item">
+                    <input class="power-<%= weapons[i].p %>" type="checkbox" value="<%= weapons[i].p %>"> <%= weapons[i].name %>
+                    <span class="pull-right text-muted small"><em><%= weapons[i].boss %></em></span>
+                </li>
+            <% }; %>
             </ul>
         </div>
     </div>
