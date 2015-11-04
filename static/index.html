@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>NES Hack</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <link rel="stylesheet" href="/component/bootstrap/css/bootstrap.css">
+
+        <link rel="stylesheet" href="/component/startbootstrap-sb-admin-2/css/sb-admin-2.css">
+
+        <link rel="stylesheet" href="/component/font-awesome/css/font-awesome.css" type="text/css">
+
+        <script>
+        var require = {
+            shim : {
+                "bootstrap" : { "deps" : ['jquery'] },
+                "backbone":  { "deps" : ['underscore'] },
+                "phaser": { "exports": "Phaser" },
+                "socket.io": { "exports": "io" },
+            },
+            paths: {
+                "app": ".",
+                "jquery" : "/component/jquery/jquery",
+                "bootstrap" :  "/component/bootstrap/bootstrap",
+                "backbone": "/component/backbone/backbone",
+                "backbone.babysitter" :  "/component/backbone.babysitter/backbone.babysitter",
+                "backbone.wreqr" :  "/component/backbone.wreqr/backbone.wreqr",
+                "backbone.marionette" :  "/component/backbone.marionette/backbone.marionette",
+                "phaser" :  "/component/phaser/phaser",
+                "socket.io": "/component/socket.io-client/socket.io",
+                "underscore": "/component/underscore/underscore",
+                "lazy": "/component/require-lazy/lazy",
+                "text": "/component/requirejs-text/text"
+            }
+        };
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">oi</div>
+        <script type="text/javascript" data-main="init.js" src="/component/requirejs/require.js"></script>
+    </body>
+</html>

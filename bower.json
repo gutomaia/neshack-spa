@@ -1,0 +1,56 @@
+{
+  "name": "cinetv-webapp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gutomaia/nodeNES",
+  "authors": [
+    "Guto Maia <guto@guto.net>"
+  ],
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "2.1.4",
+    "backbone": "1.2.1",
+    "backbone.marionette": "2.4.3",
+    "underscore": "1.8.3",
+    "bootstrap": "3.3.1",
+    "phaser": "2.4.4",
+    "requirejs": "2.1.18",
+    "requirejs-text": "2.0.12",
+    "require-lazy": "0.3.8",
+    "socket.io-client": "0.9.6",
+    "startbootstrap-sb-admin-2": "1.0.7"
+  },
+  "private": true,
+  "install" : {
+      "path" : {
+        "js": "external/component",
+        "swf": "external/component",
+        "css": "external/component/{name}/css",
+        "eot": "external/component/{name}/fonts",
+        "svg": "external/component/{name}/fonts",
+        "tff": "external/component/{name}/fonts",
+        "woff": "external/component/{name}/fonts"
+      },
+      "sources" : {
+        "requirejs-text": ["bower_components/requirejs-text/text.js"],
+        "bootstrap" : ["bower_components/bootstrap/dist/css/bootstrap.css",
+                       "bower_components/bootstrap/dist/css/bootstrap.css.map"],
+        "phaser" : [
+          "bower_components/phaser/build/phaser.js",
+          "bower_components/phaser/build/phaser.min.js",
+          "bower_components/phaser/build/custom/phaser-minimum.min.js"],
+        "socket.io-client" : [
+          "bower_components/socket.io-client/dist/socket.io.js",
+          "bower_components/socket.io-client/dist/WebSocketMain.swf"
+        ]
+      }
+
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
