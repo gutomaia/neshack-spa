@@ -1,0 +1,5 @@
+.checkpoint
+bower_components/
+build/
+external/
+node_modules/
