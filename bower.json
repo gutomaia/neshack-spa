@@ -18,7 +18,7 @@
     "requirejs-text": "2.0.12",
     "require-lazy": "0.3.8",
     "socket.io-client": "0.9.6",
-    "startbootstrap-sb-admin-2": "1.0.7"
+    "startbootstrap-sb-admin-2": "gh-pages"
   },
   "private": true,
   "install" : {
